@@ -66,34 +66,37 @@ footer a {
   color: #024e76;
 }
 
-/* hero style start*/
+section {
+  padding: 60px;
+}
+
+/* Hero Style Start */
 .hero {
-  background-image: url("../image/hero-bg.jpg");
+  background-image: url('../images/hero-bg.jpg');
   height: 600px;
   background-size: cover;
   background-position: center;
   position: relative;
 }
-/*hero style end*/
+/* Hero Style End */
 
 .hero-form {
+  border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
   width: 500px;
   color: #024e76;
-  border: solid 3px #024e76;
+  position: absolute;
   bottom: 120px;
   right: 140px;
-  position: absolute;
-}
-
-.hero-form p {
-  margin: 5px 0 15px 0;
 }
 
 .hero-form h3 {
   font-size: 24px;
   margin: 0;
+}
+.hero-form p {
+  margin: 5px 0 15px 0;
 }
 
 .form-input {
@@ -105,6 +108,15 @@ footer a {
   width: 100%;
   margin-bottom: 15px;
 }
+
 .hero-form label {
-  margin: 0px;
+  margin: 0 5px;
+}
+
+.hero-form button {
+  color: #fce138;
+  background-color: #024e76;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
 }
